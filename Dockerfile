@@ -1,6 +1,6 @@
 FROM tomcat:8
 LABEL app=my-app
-COPY target/*.war /usr/local/tomcat/webapps/*.war
+COPY target/myweb-0.0.4.war /usr/local/tomcat/webapps/
 # dummy commit
 
 
